@@ -1,0 +1,16 @@
+ <table>
+    <tbody>
+      <tr>
+        <td><h4>title:</h4></td>
+        <td><%= @book.title %></td>
+      </tr>
+      <tr>
+        <td><h4>body:</h4></td>
+        <td><%= @book.body %></td>
+      </tr>
+      <tr>
+        <td><%= link_to "Edit",edit_book_path %></td>
+        <td><%= link_to "Back",books_path %></td>
+      </tr>
+    </tbody>
+  </table>

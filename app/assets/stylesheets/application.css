@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+body {
+  margin: 33px;
+  line-height: 18px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.bookers {
+}
+
+p {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.link {
+  margin-left: 33px;
+  text-decoration: underline;
+  cursor: pointer;
+}
